@@ -1,0 +1,43 @@
+  <form class="container">
+      <div class="app">
+        <input [value]="display" type="text" class="form-control" id="display" name="display" readonly>
+        <div class="grid-buttons">
+            <span></span>
+            <span></span>
+            <button (click)="clear()" class="opts" type="button">C
+            </button>
+            <button (click)="changeOpt('division')" class="opts" type="button"  id="division">/
+            </button>
+            <button (click)="addValue(7)" type="button"id="7">7
+            </button>
+            <button (click)="addValue(8)" type="button" id="8">8
+            </button>
+            <button (click)="addValue(9)" type="button" id="9">9
+            </button>
+            <button (click)="changeOpt('multiplication')" class="opts" type="button" id="multiplication">x
+            </button>
+            <button (click)="addValue(4)" type="button" id="4">4
+            </button>
+            <button (click)="addValue(5)" type="button" id="5">5
+            </button>
+            <button (click)="addValue(6)" type="button" id="6">6
+            </button>
+            <button (click)="changeOpt('subtraction')" class="opts" type="button" id="subtraction">-
+            </button>
+            <button (click)="addValue(1)" type="button" id="1">1
+            </button>
+            <button (click)="addValue(2)" type="button" id="2">2
+            </button>
+            <button (click)="addValue(3)" type="button" id="3">3
+            </button>
+            <button (click)="changeOpt('sum')" class="opts" type="button" id="sum">+
+            </button>
+            <span></span>
+            <button (click)="addValue(0)" type="button" id="0">0
+            </button>
+            <span></span>
+            <button (click)="calculate()" class="calculate" type="button" id="calculate">=
+            </button>
+        </div>
+    </div>
+</form>

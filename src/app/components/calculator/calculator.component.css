@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 100vh;
+}
+
+.app {
+  background: #1f1f1f;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app input {
+  background: #1f1f1f;
+  padding: 18px 12px;
+  margin: 18px 12px;
+  border-radius: 10px;
+  border: 2px solid #555555;
+  font-size: 24px;
+  color: #fff;
+  text-align: right;
+}
+
+.grid-buttons {
+  background: #1f1f1f;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-buttons button {
+  background: #060606;
+  border: 1px solid #1f1f1f;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grid-buttons button:hover {
+  background: #4a4a4a;
+  transition: 0.7s;
+}
+
+.grid-buttons .opts {
+  background: #111111;
+}
+
+.grid-buttons .calculate {
+  background: #795d13;
+}
+
+.grid-buttons .calculate:hover {
+  background: #e9aa04;
+}
